@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Caculator Node js</h1>
+    <p>Nhập hai số và chọn phép toán rồi nhấn nút Tính</p>
+    <!-- Tạo một form với method là get và action là /tinhtoan để gửi dữ liệu lên URL -->
+    <form method="get" action="/tinhtoan">
+      <input type="text" id="num1" name="num1" placeholder="Số thứ nhất" />
+      <input type="text" id="num2" name="num2" placeholder="Số thứ hai" />
+      <select id="operator" name="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input type="submit" value="Tính" />
+</body>
+</html>
